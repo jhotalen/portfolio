@@ -1,0 +1,28 @@
+body {
+  background-image: url("../images/joooks_com.jpg");
+  background-color: white;
+  background-attachment: fixed;
+  background-position: 75%, 50%;
+  background-repeat: no-repeat;
+  background-size: 450px;
+}
+
+h1 {
+  color: purple;
+}
+
+h2 { 
+  color: purple;
+}
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, white, brown);
+  opacity: 0.5;
+  color: white;
+}
+
+.navbar {
+  background-color: brown; 
+  opacity: 0.75;
+}

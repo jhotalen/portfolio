@@ -1,19 +1,29 @@
 {
   "name": "jhotalen-portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
     "lite": "lite-server"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhotalen/portfolio.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhotalen/portfolio/issues"
+  },
+  "homepage": "https://github.com/jhotalen/portfolio#readme",
+  "description": "",
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
