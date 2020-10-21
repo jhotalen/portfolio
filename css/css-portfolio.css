@@ -26,3 +26,7 @@ h2 {
   background-color: brown; 
   opacity: 0.75;
 }
+
+#discount {
+  font-size: 1.5rem;
+}
