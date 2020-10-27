@@ -1,18 +1,20 @@
-body {
+#indexBody {
   background-image: url("../images/joooks_com.jpg");
   background-repeat: no-repeat;
   background-color: white;
   background-attachment: fixed;
-  
-  
-}
+  }
+
+  #aboutBody {
+    background-color: white;
+  }
 
 h1 {
   color: purple;
 }
 
 h5 { 
-  color: purple;
+  color: lightslategray;
 }
 
 h2 { 
@@ -40,8 +42,8 @@ ul#horizontal-list {
 	list-style: none;
 	padding-top: 20px;
 	}
-	ul#horizontal-list li {
-    display: inline;
+ul#horizontal-list li {
+  display: inline;
   }
 
 ul#list2 {
@@ -50,10 +52,15 @@ ul#list2 {
   padding-top: 20px;
   }
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {background-size: 150px;
         background-position: 75% 65%;
+  }
+  #aboutTextBox{
+    width: 250px;
+    padding:10px;
   }
 }
 
@@ -62,12 +69,22 @@ ul#list2 {
   body {background-size: 150px;
         background-position: 75% 65%;
   }
+  #aboutTextBox{
+    width: 450px;
+    padding: 20px;
+    font-size: 24px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {background-size: 250px;
         background-position: 75% 90%; 
+  }
+  #aboutTextBox{
+    width: 700px;
+    padding: 20px;
+    font-size: 24px;
   }
 } 
 
@@ -76,12 +93,22 @@ ul#list2 {
   body {background-size: 450px;
         background-position: 75% 85%;
   }
+  #aboutTextBox{
+    width: 700px;
+    padding: 20px;
+    font-size: 24px;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body {background-size: 550px;
         background-position: 75% 85%;
+  }
+  #aboutTextBox{
+    width: 1100px;
+    padding: 20px;
+    font-size: 32px;
   }
 }
     
