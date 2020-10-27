@@ -3,8 +3,8 @@ body {
   background-repeat: no-repeat;
   background-color: white;
   background-attachment: fixed;
-  background-position: 75% 65%;
-  background-size: 450px;
+  
+  
 }
 
 h1 {
@@ -16,7 +16,7 @@ h5 {
 }
 
 h2 { 
-  color: purple;
+  color: lightslategrey;
 }
 
 .jumbotron {
@@ -27,7 +27,7 @@ h2 {
 }
 
 .navbar {
-  background-color: brown; 
+  background-color: fuchsia; 
   opacity: 0.75;
 }
 
@@ -44,10 +44,45 @@ ul#horizontal-list {
     display: inline;
   }
 
-  ul#list2 {
-    min-width: 696px;
-    list-style: none;
-    padding-top: 20px;
-    }
+ul#list2 {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {background-size: 150px;
+        background-position: 75% 65%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {background-size: 150px;
+        background-position: 75% 65%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {background-size: 250px;
+        background-position: 75% 90%; 
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {background-size: 450px;
+        background-position: 75% 85%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {background-size: 550px;
+        background-position: 75% 85%;
+  }
+}
     
   
