@@ -1,9 +1,9 @@
 body {
   background-image: url("../images/joooks_com.jpg");
+  background-repeat: no-repeat;
   background-color: white;
   background-attachment: fixed;
-  background-position: 75%, 50%;
-  background-repeat: no-repeat;
+  background-position: 75% 65%;
   background-size: 450px;
 }
 
@@ -11,14 +11,18 @@ h1 {
   color: purple;
 }
 
+h5 { 
+  color: purple;
+}
+
 h2 { 
   color: purple;
 }
+
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, white, brown);
-  opacity: 0.5;
+  background-image: linear-gradient(to right, rgba(255,255,255,1.0), rgba(165,42,42,1.0));
   color: white;
 }
 
@@ -30,3 +34,20 @@ h2 {
 #discount {
   font-size: 1.5rem;
 }
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+    display: inline;
+  }
+
+  ul#list2 {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    }
+    
+  
