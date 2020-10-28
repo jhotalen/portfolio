@@ -15,3 +15,7 @@ function hideAboutText() {
         x.style.display = "none";
     }
   }
+
+$("#eggButton").click(function(){ 
+    $("#eggModal").modal("toggle")  
+  });

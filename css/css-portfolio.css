@@ -67,6 +67,14 @@ ul#list2 {
   }
 }
 
+#easterEgg {
+  opacity: 0;
+}
+
+#easterEgg:hover  {
+  opacity: 1;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body {background-size: 150px;
