@@ -47,5 +47,19 @@ $("#eggButton").click(function () {
   $("#eggModal").modal("toggle")
 });
 
+$("#shirtButton").click(function () {
+  $("#shirtModal").modal("toggle")
+});
 
+$("#hatButton").click(function () {
+  $("#hatModal").modal("toggle")
+});
+
+$("#hdyButton").click(function () {
+  $("#hdyModal").modal("toggle")
+});
+
+$("#mugButton").click(function () {
+  $("#mugModal").modal("toggle")
+});
 
