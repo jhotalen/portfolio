@@ -147,7 +147,7 @@ ul#list2 {
 .btn-next{
   position: absolute;
   bottom: 15px;
-  right: 15px;
+  right: 55px;
   width: 100px;
   border-radius: 20px;
   background-color: #316e99;
@@ -186,7 +186,7 @@ input{
     bottom: 0;
     margin: auto;
     height: 40px;
-    right: 0px;
+    right: 15px;
     left: auto;
     width :auto;
     -webkit-transform: rotate(90deg);
