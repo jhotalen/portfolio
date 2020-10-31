@@ -58,10 +58,10 @@
         </div>
     </nav>
     
-    <div class="container" id="carouselContainer">
-        <div class="row">
-            <div class="col h-100">
-                <div class="card w-100">
+    <div class="container" id="carouselContainer"> 
+        <!--<div class="row">
+            <div class="col-xs-6 col-sm-12 col-md-10 h-100">-->
+                <div class="card">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -90,7 +90,7 @@
                     <button class="btn btn-next">Next</button>
                 </div>
             </div>
-        </div>
+        <!--</div>-->
     </div>
        
     <footer class="site-footer fixed-bottom" id="aboutFooter">
@@ -111,11 +111,11 @@
     <script src="js/portfolio.js"></script>
     
     <script>
-        $(document).ready(function() {
-            $('.navbar-collapse').on('show.bs.collapse', function() {
+        $(document).ready(function () {
+            $('.navbar-collapse').on('show.bs.collapse', function () {
                 hideShopCarousel();
             });
-            $('.navbar-collapse').on('hidden.bs.collapse', function() {
+            $('.navbar-collapse').on('hidden.bs.collapse', function () {
                 hideShopCarousel();
             });
         });

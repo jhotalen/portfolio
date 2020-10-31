@@ -134,14 +134,14 @@ ul#list2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 400px;
 }
 
 .card{
   border: 10px;
-  height:30%;
-  width:40%;
+  width: 100%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  border: none;
+  border: none; 
 }
 
 .btn-next{
@@ -209,40 +209,3 @@ input{
     width: 20px;
     border-radius: 25px;
 }
-/* Media Querys */
-/* Small devices (landscape phones, 576px and up) 
-@media (min-width: 576px) {
-  .bgTitle{
-    height: 30%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    top: 0;
-  }
-  .content{
-    padding: 15px;
-  }
-}*/
-
-/* Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-}*/
-
-/* Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .bgTitle{
-    height: 100%;
-    width: 50%;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
-  }
-}*/
-
-/* Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    
-  
-}*/
-    
-  
